@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  animation: glow 1s ease-in-out infinite alternate;
+  background-color: black;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00ff11, 0 0 40px #00ff11, 0 0 50px #00ff11, 0 0 60px #00ff11, 0 0 70px #00ff11;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #03bd00, 0 0 40px #03bd00, 0 0 50px #03bd00, 0 0 60px #03bd00, 0 0 70px #03bd00, 0 0 80px #03bd00;
+  }
+}
+
+.glow2 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  animation: glow 1s ease-in-out infinite alternate;
+  background-color: black;
+}
+
+.row1 {
+  background-color: black;
+}
+
+.hoverglow:hover {
+  background-color: #00ff11;
+  box-shadow: 10px 10px 10px 10px #00ff11;
+  border-radius: 10px;
+}
+
+.homecol {
+  border: solid;
+  border-color: #00ff11;
+  border-radius: 10px;
+  margin: 100px;
+  padding: 5px;
+}
+
+.homecol2 {
+  border: solid;
+  border-color: #00ff11;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.homecol3 {
+  border: solid;
+  border-color: #00ff11;
+}
+
+.hone {
+  font-size: 40px;
+  color: #fff;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+  .responsive2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
